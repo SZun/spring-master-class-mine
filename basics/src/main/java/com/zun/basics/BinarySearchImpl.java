@@ -1,18 +1,20 @@
 package com.zun.basics;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
 public class BinarySearchImpl {
 
     @Autowired
-    private SortAlgorithm bubbleSortAlgorithm;
+    @Qualifier("bubble")
+    private SortAlgorithm sortAlgorithm;
 
     public int binarySeach(int[] nums, int item){
 
-        int[] sortedNums = bubbleSortAlgorithm.sort(nums);
-        System.out.println(bubbleSortAlgorithm.getClass().getSimpleName());
+        int[] sortedNums = sortAlgorithm.sort(nums);
+        System.out.println(sortAlgorithm.getClass().getSimpleName());
 
         return 3;
     }
