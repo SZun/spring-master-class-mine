@@ -11,6 +11,10 @@ public class App {
 		ConfigurableApplicationContext run = SpringApplication.run(App.class, args);
 
 		BinarySearchImpl binarySearch = run.getBean(BinarySearchImpl.class);
+		BinarySearchImpl binarySearch2 = run.getBean(BinarySearchImpl.class);
+
+		System.out.println(binarySearch);
+		System.out.println(binarySearch2);
 
 		int result = binarySearch.binarySeach(new int[]{12, 4, 6}, 3);
 		System.out.println(result);
