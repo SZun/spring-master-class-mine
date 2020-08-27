@@ -1,14 +1,15 @@
 package com.zun.basics;
 
+import com.zun.basics.basic.BinarySearchImpl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
-public class App {
+public class Basic {
 
 	public static void main(String[] args) {
-		ConfigurableApplicationContext run = SpringApplication.run(App.class, args);
+		ConfigurableApplicationContext run = SpringApplication.run(Basic.class, args);
 
 		BinarySearchImpl binarySearch = run.getBean(BinarySearchImpl.class);
 		BinarySearchImpl binarySearch2 = run.getBean(BinarySearchImpl.class);

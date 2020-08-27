@@ -1,4 +1,4 @@
-package com.zun.basics;
+package com.zun.basics.basic;
 
 
 public interface SortAlgorithm {
