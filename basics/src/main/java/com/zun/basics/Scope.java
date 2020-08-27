@@ -20,6 +20,7 @@ public class Scope {
 
 		LOGGER.info("{}", personDAO);
 		LOGGER.info("{}", personDAO.getJdbcConnection());
+		LOGGER.info("{}", personDAO.getJdbcConnection());
 		LOGGER.info("{}", personDAO2);
 		LOGGER.info("{}", personDAO2.getJdbcConnection());
 	}
