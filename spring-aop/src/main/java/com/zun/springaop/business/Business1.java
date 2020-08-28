@@ -1,5 +1,6 @@
-package com.zun.springaop;
+package com.zun.springaop.business;
 
+import com.zun.springaop.data.Dao1;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
