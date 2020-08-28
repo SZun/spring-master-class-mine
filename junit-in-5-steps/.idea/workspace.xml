@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb598a02-a3b3-44d1-b9d9-d0e4e0b6f220" name="Default Changelist" comment="" />
+    <list default="true" id="eb598a02-a3b3-44d1-b9d9-d0e4e0b6f220" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step22/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step22/.idea/step22.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step22/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step22/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step22/bin/com/in28minutes/junit/AssertTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step22/bin/com/in28minutes/junit/MyMath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step22/bin/com/in28minutes/junit/MyMathTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step22/src/com/in28minutes/junit/MyMath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step22/test/com/in28minutes/junit/AssertTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../step22/test/com/in28minutes/junit/MyMathTest.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +73,22 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="junit-in-5-steps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="junit-in-5-steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit-in-5-steps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="junit-in-5-steps" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -125,10 +152,10 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32941177" />
       <window_info anchor="bottom" id="Message" order="0" />
