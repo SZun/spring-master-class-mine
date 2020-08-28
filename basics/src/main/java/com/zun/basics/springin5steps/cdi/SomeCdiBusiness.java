@@ -2,6 +2,7 @@ package com.zun.basics.springin5steps.cdi;
 
 import javax.inject.Inject;
 import javax.inject.Named;
+import java.util.Arrays;
 
 @Named
 public class SomeCdiBusiness {
@@ -15,5 +16,9 @@ public class SomeCdiBusiness {
 
 	public void setSomeCDIDAO(SomeCdiDao someCdiDao) {
 		this.someCdiDao = someCdiDao;
+	}
+
+	public int findGreatest(){
+		return Arrays.stream(someCdiDao.getData()).max().orElse(Integer.MIN_VALUE);
 	}
 }

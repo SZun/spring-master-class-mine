@@ -11,6 +11,7 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(SpringRunner.class)
 @ContextConfiguration(classes = SpringIn5StepsBasicApplication.class)
+// @ContextConfiguration(locations = "/applicationContext.xml")
 public class BinarySearchImplTest {
 
     @Autowired
