@@ -12,7 +12,7 @@ public class UserAccessAspect {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    @Before("execution(* com.zun.springaop.data.*.*(..))")
+    @Before("execution(* com.zun.springaop.aspect.CommonJoinPointConfig.dataLayerExecution())")
     public void before(JoinPoint joinPoint) {
         logger.info("Check for user access");
         logger.info("Allow execution for {}", joinPoint);
@@ -32,7 +32,7 @@ public class UserAccessAspect {
         logger.info("{} throws exception {}", joinPoint, exception);
     }
 
-    @After("execution(* com.zun.springaop.business.*.*(..))")
+    @After("execution(* com.zun.springaop.CommonJoinPointConfig.dataLayerExecution())")
     public void after(JoinPoint joinPoint) {
         logger.info("after execution of {}", joinPoint);
     }
