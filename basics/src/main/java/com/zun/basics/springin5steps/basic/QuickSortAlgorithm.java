@@ -1,4 +1,4 @@
-package com.zun.basics.basic;
+package com.zun.basics.springin5steps.basic;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
@@ -6,9 +6,8 @@ import org.springframework.stereotype.Component;
 @Component
 @Qualifier("quick")
 public class QuickSortAlgorithm implements SortAlgorithm {
-
-    public int[] sort(int[] nums){
-        return nums;
-    }
-
+	public int[] sort(int[] numbers) {
+		// Logic for Quick Sort
+		return numbers;
+	}
 }
