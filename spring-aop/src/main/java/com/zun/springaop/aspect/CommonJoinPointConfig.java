@@ -10,4 +10,10 @@ public class CommonJoinPointConfig {
     @Pointcut("execution(* com.zun.springaop.business.*.*(..))")
     public void businessLayerExecution(){}
 
+    @Pointcut("bean(*dao*)")
+    public void beanContainingDao(){}
+
+    @Pointcut("within*(com.zun.springaop.data..*)")
+    public void dataLayerExecutionWithWithin(){};
+
 }
